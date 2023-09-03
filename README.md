@@ -1,4 +1,4 @@
-# vue3-PostList
+# vue3-PostsList
 
 ## Project setup
 ```
