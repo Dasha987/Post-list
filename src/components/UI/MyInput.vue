@@ -19,8 +19,8 @@ export default {
 <style>
 .input {
   padding: 10px;
-  margin-top: 15px;
-  border: 2px solid fuchsia;
-  background: #fff;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 2px solid rgb(158, 158, 158);
 }
 </style>

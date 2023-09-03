@@ -1,7 +1,12 @@
 <template>
   <form class="addPost" @submit.prevent>
     <h2 class="title">Создание поста</h2>
-    <my-input v-model="post.title" type="text" placeholder="Название" />
+    <my-input
+      v-myFocus
+      v-model="post.title"
+      type="text"
+      placeholder="Название"
+    />
     <my-input v-model="post.body" type="text" placeholder="Описание" />
     <my-btn @click="addPost">Добавить</my-btn>
   </form>
@@ -38,5 +43,6 @@ export default {
 
 .title {
   margin-top: 0;
+  align-self: center;
 }
 </style>

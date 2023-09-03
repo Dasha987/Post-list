@@ -1,6 +1,5 @@
 <template>
   <div v-if="posts1.length > 0">
-    <h2>Список постов</h2>
     <transition-group name="posts-list">
       <post-item
         @del="$emit('del', post)"
@@ -39,7 +38,7 @@ export default {
 .posts-list-enter-from,
 .posts-list-leave-to {
   opacity: 0;
-  transform: translateX(150px);
+  transform: translateY(150px);
 }
 .posts-list-move {
   transition: transform 0.6s ease;

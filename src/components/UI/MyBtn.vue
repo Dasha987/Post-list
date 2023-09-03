@@ -13,9 +13,10 @@ export default {
 <style>
 .btn {
   padding: 10px;
-  margin-top: 15px;
-  border: 2px solid fuchsia;
-  background: #fff;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 5px;
+  background: white;
   align-self: flex-end;
+  cursor: pointer;
 }
 </style>
